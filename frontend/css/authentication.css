@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&family=Girassol&display=swap');
+
+
+:root{
+
+   --Fascinate: 'Fascinate', cursive;
+   --Fascinate-inline: 'Fascinate Inline', cursive;
+   --girasol: 'Girassol', cursive;
+}
+
+* {
+	box-sizing: border-box;
+    margin:0;
+}
+
+
+body{ 
+    background: url(/img/fundo4.png) no-repeat  center fixed;
+    background-size: cover;
+}
+
+
+section { 
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white ;   
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 500px;
+    border-radius: 12px;
+}
+
+.container{ 
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+
+    
+}
+.container h1{ 
+    font-family: var(--Fascinate-inline);
+    font-size: 30px;
+    padding: 0;
+    margin-bottom: -20px;
+    color: rgb(71, 71, 71);
+    text-transform: uppercase;
+}
+.container form { 
+    padding:30px;
+}
+.container  p a {
+    text-decoration: none;
+    color: rgb(3, 101, 126);
+
+}
+.container form input[type=text], input[type=password]{ 
+     margin: 10px;
+     padding:6px;
+     border-radius: 10px;
+     width: 200px;
+     outline: none;
+     border-color: rgb(71, 71, 71);
+} 
+.container form input[type=button]{ 
+    outline: none;
+    padding: 5px;
+    width: 100px;
+    background-color: aqua;
+    border: none;
+    border-radius: 30px; 
+}
+
+.container form input[type=button]:hover, input[type=button]:active, input[type=button]:focus{ 
+    background-color: rgb(73, 255, 255);
+    
+}

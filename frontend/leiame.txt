@@ -1,0 +1,4 @@
+Responsavel: Lucas Samuel dos santos
+data: 27/04/2021
+Objetivo:
+    - Implementar o cronometro do jogo e os botões Pause e Stop

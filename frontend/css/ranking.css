@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&family=Girassol&display=swap');
+
+
+:root{
+
+   --Fascinate: 'Fascinate', cursive;
+   --Fascinate-inline: 'Fascinate Inline', cursive;
+   --girasol: 'Girassol', cursive;
+}
+
+* {
+	box-sizing: border-box;
+    margin:0;
+}
+
+body{ 
+    background: url(/img/fundo.jpg) no-repeat center fixed;
+    background-size: cover;
+
+     }
+
+.ranking { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.ranking table { 
+    font-size: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: var(--girasol);
+}
+
+.ranking table thead th,tbody td { 
+    padding: 8px 20px;
+    text-transform: uppercase;
+    text-align: center;
+        
+}
+
+.ranking .btnVoltar{
+    font-family: var(--Fascinate-inline);
+    margin: 15px 30%;
+    text-align: center;
+    padding:10px;
+    border-radius: 3px;
+    border-color: black;
+    background-color: transparent;
+ }
+
+ .ranking .btnVoltar:hover{
+    color: white;
+    background-color: rgba(7, 111, 209,0.5);
+}
+
+.ranking .btnVoltar a {
+    text-transform: uppercase; 
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+
+}
+.ranking .btnVoltar:hover a{
+    color: white;
+
+}
